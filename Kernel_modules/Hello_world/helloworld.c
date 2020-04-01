@@ -45,7 +45,7 @@ kfree(ptr);
 return 0;
 }
 static void __exit helloworld_exit(void) {
-pr_info("End of the worlds\n");
+pr_info("End of the world\n");
 }
 module_init(helloworld_init);
 module_exit(helloworld_exit);
